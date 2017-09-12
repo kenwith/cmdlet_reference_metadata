@@ -1,0 +1,10 @@
+Bash command to do diff on multiple directories:
+
+for file in markup_files/*; do diff "$file" "processed/${file##*/}"; done
+
+
+
+Command to run from Git Bash:
+
+
+<path_to>..\python add_meta.py
