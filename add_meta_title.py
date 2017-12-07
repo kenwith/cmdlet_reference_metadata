@@ -1,6 +1,6 @@
 import os
 
-path_in = r'c:\users\kenwith\git\office-docs-powershell\skype\skype-ps\skype/'
+path_in = r'c:\users\kenwith\git\office-docs-powershell\sharepoint\sharepoint-ps\sharepoint-online/'
 path_out = r'c:\processed/'
 
 
