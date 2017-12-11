@@ -8,9 +8,9 @@ lines = f_in.readlines()
 for line in lines:
     cmdlet = line.rstrip()
     cmdlet_with_md = cmdlet + ".md"
-    print("PROCESSED: %s" % cmdlet)
     f_out.write(r"### [" + cmdlet + r"](" + cmdlet_with_md + r")" + "\n")
     f_out.write(r"{{Manually Enter " + cmdlet + r" Description Here}}" + "\n\n")
+    print("PROCESSED: %s" % cmdlet)
 
 f_in.close()
 f_out.close()
