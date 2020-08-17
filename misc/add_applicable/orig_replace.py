@@ -1,13 +1,13 @@
 import os
 
-#path_in = r'c:\users\kenwith\git\office-docs-powershell\skype\skype-ps\skype/'
-#path_out = r'c:\processed/'
-path_in = r'./data/'
-path_out = r'./processed/'
+path_in = r'c:\users\kenwith\git\azure-docs-pr\articles\active-directory\saas-apps/'
+path_out = r'c:\users\kenwith\git\azure-docs-pr\articles\active-directory\saas-apps/'
+#path_in = r'./data/'
+#path_out = r'./processed/'
 
 # cmdlets_to_ignore are in 2013 but not 2010. We only adding 2010 so ignore these.
 # make sure to strip the \n character with rstrip()
-cmdlets_to_ignore = [line.rstrip() for line in open("configs/skip_these", "r")]
+#cmdlets_to_ignore = [line.rstrip() for line in open("configs/skip_these", "r")]
 #cmdlets_to_ignore = open("configs/skip_these", "r").readlines()
 
 #for line in cmdlets_to_ignore:
